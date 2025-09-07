@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+@import "tailwindcss";
+/* index.css */
+.text-outline {
+  color: transparent;                /* andar se transparent */
+  -webkit-text-stroke: 1px #e6dfc6;    /* bahar border */
+}
+/* Custom utility */
+.font-playfair {
+  font-family: "Playfair Display", serif;
+}
+.font-yellowtail {
+  font-family: "Yellowtail", cursive;
+}
+.mainWidth{
+    width: 70%;
+    margin: auto;
+}
+@media (max-width:1418px) {
+  .mainWidth{
+    width: 85%;
+    margin: auto;
+  }
+}
+@media (max-width:1144px) {
+  .mainWidth{
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (max-width:1784px) {
+  .shop{
+    height: max-content;
+    padding: 50px;
+  }
+  .shopCard{
+    margin-bottom: 20px;
+  }
+}
+@media (max-width:1292px) {
+  .shopCards{
+    justify-content: center;
+  }
+}
