@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='bg-[url("herobg.jpg")] flex justify-center items-center'>
+    <div className='bg-[url("/herobg.jpg")] flex justify-center items-center'>
         <img className='max-[1128px]:hidden' src="herogirl.png" alt="" />
         <div className="heroCon flex flex-col items-start gap-7 max-[1128px]:w-[100%] max-[1128px]:items-center max-[1128px]:text-center max-[1128px]:py-30">
             <h3 className='max-[1366px]:text-2xl text-3xl font-yellowtail text-[#2577fd]'>60% Discount</h3>
